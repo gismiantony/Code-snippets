@@ -1,0 +1,8 @@
+
+test_list = [(1, 'job', 22), (2, 'danny', 20), (3, 'raju', 19)] 
+
+print ("The original list is : " + str(test_list)) 
+
+res = [lis[1] for lis in test_list] 
+	 
+print ("List with only nth tuple element (i.e names) : " + str(res)) 
