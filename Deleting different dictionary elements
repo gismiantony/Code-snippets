@@ -1,0 +1,7 @@
+myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'} 
+
+for key in myDict.keys(): 
+	if key == 2: 
+		del myDict[key] 
+
+print(myDict) 
